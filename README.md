@@ -18,9 +18,3 @@ This project implements the **UART protocol** on a **Basys 3 FPGA Board**. It al
 - Handles the **Start, Data, Stop, and Idle** states for proper UART transmission.
 
 ---
-
-## How to Use
-1. Connect the Basys 3 FPGA to your PC via USB.
-2. Open **PuTTY** (or another serial terminal) and set the baud rate to match the FPGA design.
-3. **Receiver:** Type characters in PuTTY to see their **ASCII codes** displayed on the board LEDs.
-4. **Transmitter:** Press the button on the FPGA board to send data to the PC.
